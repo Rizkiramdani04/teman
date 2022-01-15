@@ -1,0 +1,78 @@
+
+.banner {
+    background:url(https://i.pinimg.com/originals/08/62/e9/0862e97b1a66d8f5cbdcc6f87c125a96.jpg)
+      no-repeat center center;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+  }
+  
+  .lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #dc3545;
+  }
+  
+  .lingkaran i {
+    position: relative;
+    top: 30px;
+  }
+
+#skills .bar {
+	height: 30px;
+	background-color:#fff;
+	border:1px solid #ddd;
+	margin: 5px 0 20px 0;
+}
+.bar{
+    text-align: justify;
+}
+.bar .nilai {
+	height:30px;
+	background-color: #F84744;
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+}.html {
+	width:80%;
+}
+.css {
+	width:60%;
+}
+.js {
+	width:25%;
+}
+.php {
+	width:25%;
+}
+.contact{
+	width:33.33%;
+	box-sizing: border-box;
+	float: left;
+	text-align: center;
+	padding:50px 10px;
+}
+.contact-h4 {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 15px;
+}@media (max-width: 768px){
+	.mobile-menu {
+		display: block;
+	}
+	header ul {
+		display: none;
+	}
+	.skills {
+		width:50%;
+	}
+	.contact {
+		width:100%;
+	}
+}
+ 
